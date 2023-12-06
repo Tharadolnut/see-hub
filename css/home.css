@@ -1,0 +1,773 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Thai&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.header-nav{
+    width: 100%;
+    min-height: 133px;
+    background-color: #06061A;
+    padding: 0 5rem;
+}
+.nav{
+    margin-left: 10rem;
+}
+.logo-nav{
+    width: 104.29px;
+    min-height: 92px;
+}
+.nav-item .nav-link{
+    font-size: 25px;
+    color: #ffffff;
+    margin-right: 4.5rem;
+}
+.active-nav{
+    color: #d10000;
+}
+.nav-item i {
+    color: #ffffff;
+    font-size: 50px;
+    margin-right: 4.5rem;
+}
+.nav-btn{
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+/* maquree */
+.marquee-1{
+    max-width: 100%;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(23, 191, 233, 0.5));
+    height: 3.75rem;
+}
+.marquee-1 div i{
+    font-size: 20px; top: 0; left: 0;
+}
+/* live */
+.live{
+    width: 100%;
+    height: 2217px;
+    background: linear-gradient(180deg, #010127 0%, rgba(93, 200, 228, 0.50) 58.85%, #010127 100%);
+    overflow: hidden;
+}
+.live-search i{
+    margin-left: -3rem;
+    font-size: 28px;
+    color: #ffffff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.live-input{
+    width: 460px;
+    height: 50px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 10px;
+    background: none;
+    padding-left: 20px;
+    color: white;
+    padding-right: 5rem;
+}
+.live-box{
+    width: 1119px;
+    height: 949px;
+    background: #010127;
+    padding: 10px;
+}
+.live-content{
+    width: 1080px;
+    height: 907px;
+    border: 1px solid white;
+}
+.livevideo{
+    width: 100%;
+    height: 601px;
+}
+.livevideo iframe{
+    width: 100%;
+    height: 100%;
+}
+.livetext{
+    width: 100%;
+    height: 306px;
+}
+.livebox-icon{
+    width: 130px;
+    height: 130px;
+    background-color: #d10000;
+    border: 1px solid white;
+    border-radius: 100px;
+    top: 20px;
+    left: 30px;
+}
+.livebox-icon img{
+    width: 65px;
+    height: 100px;
+    top: 15px;
+    left: 30px;
+}
+.livetext .text{
+    width: 674px;
+    height: 130px;
+    border-bottom: 1px solid white;
+    top: 1.25rem;
+    left: 5.7rem;
+    padding-top: 1rem;
+    padding-left: 7rem;
+}
+.live-title{
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.live-text{
+    color: #9A9A9A;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.text i{
+    color: #fff;
+    font-size: 52px;
+    top: 17px;
+    right: 12rem;
+}
+.btn-live{
+    width: 152px;
+    height: 62px;
+    background-color: #EECF2E;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    border-radius: 100px;
+    top: 30px;
+    right: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.btn-live:hover{
+    background-color: #f1da62;
+}
+.live-description{
+    top: 10rem;
+    left: 10rem;
+}
+.live-description p{
+    color: #fff;
+    font-size: 21px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+.live-icon{
+    top: 2rem;
+    right: 1rem;
+}
+.live-icon i{
+    font-size: 43px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+/* table container */
+.table-container{
+    margin-top: 12rem;
+}
+.vs{
+    width: 240px;
+    height: 80px;
+    font-size: 45px;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(45deg, rgba(255,27,27,1) 50%, rgba(93,200,228,1) 50%);
+}
+.team{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.red{
+    background: #FF1B1B;
+}
+.blue{
+    background: #5DC8E4;
+}
+.table-title{
+    font-size: 45px;
+    color: #000;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.table-head{
+    width: 167.653px;
+    height: 25.306px;
+    border-bottom: 1px solid #FF1B1B
+}
+.td-team-red{
+    height: 25.306px;
+    border-bottom: 1px solid #FF1B1B;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.td-team-blue{
+    height: 25.306px;
+    border-bottom: 1px solid #5DC8E4;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.put{
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.liveamount{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.dollar{
+    font-size: 50px;
+    right: 32px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.amount{
+    font-size: 42px;
+    margin-top: 1rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* slide */
+.slide{
+    width: 100%;
+    height: 700px;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+}
+.slider-1{
+    width: 100%;
+    height: 100%;
+}
+.slider-1 h1{
+    left: 53.5rem;
+    top: 13rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+}
+.slider-1 h2{
+    left: 40rem;
+    top: 23rem;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 50px;
+}
+.slider-1 p{
+    left: 35rem;
+    top: 26rem;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 30px;
+}
+.slider-1 div{
+    width: 100%;
+    height: 700px;
+}
+.picnews-1{
+    background-image: url(https://images.unsplash.com/photo-1580617971627-cffa74e39d1d?auto=format&fit=crop&q=80&w=2153&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.picnews-2{
+    background-image: url(https://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1511882150382-421056c89033?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.picnews-3{
+    background-image: url(https://images.unsplash.com/photo-1533237264985-ee62f6d342bb?auto=format&fit=crop&q=80&w=2069&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.picnews-1::before , .picnews-2::before , .picnews-3::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 39, 1);
+    opacity: 30%;
+}
+/* game1 */
+.game{
+    background: #010B20;
+}
+.form-select{
+    width: 200px;
+}
+.valo{
+    background-image: url(https://1.bp.blogspot.com/-3VSoSX9dtnA/XyXyZEcFBzI/AAAAAAAA3Lg/IiWDG7sTnMgucer5hFIe2eHQu5xeN_TNwCLcBGAsYHQ/s2560/valorant-2020-5k-game-e9-1080x1920.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cod{
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202306/2400/e5cf467175f4a1455ce65b4688952b391d3e15bde9114698.png);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.csgo{
+    background-image: url(https://static1.thegamerimages.com/wordpress/wp-content/uploads/2023/03/counter-strike-2-cover.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.apex{
+    background-image: url(https://th.bing.com/th/id/OIP.I__SeWtTSoMIt4qQqGpEJwHaNK?pid=ImgDet&rs=1);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-game{
+    width: 100%;
+    height: 401px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+.box-picture{
+    width: 100%;
+    height: 309px;
+}
+.box1{
+    background-image: url(https://i.ytimg.com/vi/bWg3MazWfYQ/maxresdefault.jpg);
+    width: 100%;
+    height: 309px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box2{
+    background-image: url(https://static.ivory.getloconow.com/default_thumb/8de435f8-575a-4066-8b9a-a639c2564c39.jpg);
+    width: 100%;
+    height: 309px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box3{
+    background-image: url(https://pbs.twimg.com/media/F7DHzNeWgAAqEvI.jpg:large);
+    width: 100%;
+    height: 309px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-text{
+    width: 100%;
+    height: 92px;
+}
+.game-title{
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+}
+.gb-circle{
+    width: 67px;
+    height: 67px;
+    border-radius: 100px;
+    top: 12px;
+    left: 15px;
+}
+.gb-title{
+    font-size: 20px;
+    color: #000;
+    top: 1.5rem;
+    left: 7rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.gb-follow{
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+    color: #000;
+    top: 3rem;
+    left: 7rem;
+    font-family: 'Bebas Neue', sans-serif;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 100px;
+    transition: 1s;
+}
+.gb-follow:hover{
+    background-color: #8a8a8a;
+    transition: 1s;
+}
+.y{
+    background-color: #FEDB02;
+}
+.b{
+    background-color: #000000;
+}
+.r{
+    background-color: #C90000;
+}
+.btn-viewmore{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: #010127;
+    outline: none;
+    color: #BCEE2E;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    transition: 0.5s;
+}
+.btn-viewmore:hover{
+    background: #070744;
+    transition: 0.5s;
+}
+/* Footer */
+.footer-color{
+    width: 100%;
+    height: 21.313rem;
+    background-color: #06061A;
+    border: none;
+}
+.texttitle-footer{
+    color: #ffffff;
+    font-size: 1.875rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.text-body-secondary{
+    color: #ffffff;
+    font-size: 1.563rem;
+    font-family: 'Roboto', sans-serif;
+}
+.logo-footer{
+    width: 11.125rem;
+    height: 10.313rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.icon-footer1{
+    margin-left: 5rem;
+    margin-top: -23rem;
+}
+.icon-footer2{
+    margin-left: 5rem;
+    margin-top: -20rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.icon-footer li{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.footer-item .nav-link{
+    margin-left: -10rem;
+}
+
+@media screen and (max-width:430px){
+    /* navbar */
+    .header-nav{
+        min-height: 84px;
+        padding: 0;
+    }
+    .nav{
+        margin-left: 0;
+    }
+    .btn-nav{
+        color: #ffffff;
+        font-size: 25px;
+        top: 10px;
+        left: 10px;
+    }
+    .nav-item .nav-link{
+        font-size: 16px;
+        color: #ffffff;
+    }
+    .active-nav{
+        color: #d10000;
+    }
+    .nav-item i {
+        color: #ffffff;
+        font-size: 50px;
+        margin-right: 5rem;
+    }
+    .nav-btn{
+        width: 150px;
+        height: 50px;
+        border: 1px solid white;
+        background: none;
+        color: white;
+        font-size: 25px;
+        margin-right: 20px;
+    }
+    .sm-logo .img-sm{
+        width: 52px;
+        height: 46px;
+        top: 25px;
+        left: 11rem;
+    }
+    .sm-icon{
+        top: 37px;
+        right: 19px;
+    }
+    .sm-icon .nav-icon{
+        font-size: 25px;
+        color: white;
+    }
+    /* marquee */
+    .marquee-1{
+        font-size: 16px;
+    }
+    .marquee-1 div i{
+        font-size: 16px; top: -10px; left: 0;
+    }
+    /* live */
+    .live{
+        height: 950px;
+    }
+    .live-box{
+        width: 100%;
+        height: 289.036px;
+    }
+    .live-content{
+        width: 361.93px;
+        height: 276.244px;
+    }
+    .live-input{
+        width: 264px;
+        height: 28.696px;
+        padding-right: 3rem;
+    }
+    .live-search i{
+        margin-left: -2rem;
+        font-size: 16.07px;
+        color: #ffffff;
+        margin-top: 6px;
+    }
+    .livevideo{
+        height: 183.046px;
+    }
+    .livetext{
+        height: 93.198px;
+    }
+    .livebox-icon{
+        width: 41px;
+        height: 41px;
+        background-color: #d10000;
+        border: 1px solid white;
+        border-radius: 100px;
+        top: 10px;
+        left: 15px;
+    }
+    .livebox-icon img{
+        width: 14px;
+        height: 20px;
+        top: 10px;
+        left: 12px;
+    }
+    .livetext .text{
+        width: 225.871px;
+        height: 41px;
+        border-bottom: 1px solid white;
+        top: 0.68rem;
+        left: 2.2rem;
+        padding-top: 0;
+        padding-left: 2rem;
+    }
+    .live-title{
+        font-size: 10px;
+    }
+    .live-text{
+        font-size: 8px;
+    }
+    .text i{
+        font-size: 15px;
+        top: 4px;
+        right: 5rem;
+    }
+    .btn-live{
+        width: 59.203px;
+        height: 18.883px;
+        font-size: 10px;
+        top: 6px;
+        right: 0;
+    }
+    .live-description{
+        top: 3.5rem;
+        left: 5rem;
+    }
+    .live-description p{
+        color: #fff;
+        font-size: 6px;
+    }
+    .live-icon{
+        top: 0.5rem;
+        right: 1rem;
+    }
+    .live-icon i{
+        font-size: 13px;
+        margin-bottom: 5px;
+        color: #fff;
+    }
+    /* table container */
+    .table-container{
+        margin-top: 1.5rem;
+    }
+    .vs{
+        width: 75.918px;
+        height: 25.306px;
+        background: linear-gradient(45deg, rgba(255,27,27,1) 50%, rgba(93,200,228,1) 50%);
+    }
+    .vs h1{
+        font-size: 20px;
+    }
+    .team{
+        width: 31.633px;
+        height: 31.633px;
+        border-radius: 50px;
+    }
+    .team img{
+        width: 19.929px;
+        height: 16.765px;
+    }
+    .evil{
+        width: 20.878px;
+        height: 24.673px;
+    }
+    .red{
+        background: #FF1B1B;
+    }
+    .blue{
+        background: #5DC8E4;
+    }
+    .table-title{
+        font-size: 20px;
+    }
+    .td-team-blue{
+        font-size: 16px;
+    }
+    .td-team-red{
+        font-size: 16px;
+    }
+    .liveamount{
+        height: 33px;
+    }
+    .dollar{
+        font-size: 20px;
+        right: 10px;
+    }
+    .amount{
+        font-size: 20px;
+        margin-top: 1rem;
+    }
+    /* slide */
+    /* slide */
+    .slide{
+        width: 100%;
+        height: 215.117px;
+    }
+    .slider-1 h1{
+        left: 7rem;
+        top: 1rem;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 100px;
+    }
+    .slider-1 h2{
+        left: 5rem;
+        top: 8.5rem;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        font-size: 20px;
+    }
+    .slider-1 p{
+        left: 3rem;
+        top: 10rem;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        font-size: 12px;
+    }
+    .slider-1 div{
+        width: 100%;
+        height: 215.117px;
+    }
+    .valo{
+        height: 158px;
+    }
+    .cod{
+        height: 158px;
+    }
+    .apex{
+        height: 158px;
+    }
+    .csgo{
+        height: 158px;
+    }
+    .box-game{
+        width: 100%;
+        height: 401px;
+        border: 1px solid #ffffff;
+        background: #212121;
+    }
+    .gb-title{
+        color: #ffffff;
+    }
+    .gb-follow{
+        color: #000000;
+    }
+    /* footer */
+    .logo-footer{
+        height: 3.125rem;
+        width: 3.217rem;
+        margin-top: 6rem;
+        margin-left:1rem;
+        position: absolute;
+
+    }
+    .footer-color{
+        width: 100%;
+        height: 6.625rem;
+        background-color: #06061A;
+    }
+    .texttitle-footer{
+        font-size: 0.700rem;
+        color: #ffffff;
+        margin-top: -2rem;
+        margin-left: 1.2rem;
+    }
+    .texttitle-footer :hover{
+        cursor: pointer;
+        color: aqua;
+    }
+    h5:hover{
+        cursor: pointer;
+        color:#BCEE2E;
+    }
+    .all-footer{
+        margin-top: 3.5rem;
+        margin-left: 5rem;
+    }
+}
